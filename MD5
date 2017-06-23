@@ -1,4 +1,4 @@
-91c2719ab73536446133818801748c0e *DESCRIPTION
+65d448210f61f091679c8695e2783d42 *DESCRIPTION
 5a6f5e1127711941ff9c5e3d0e17d435 *NAMESPACE
 36ce55331e2505f539a8e9c46586ee32 *R/Anestheticdat.R
 bfb93a077b5beaa2e16088acd7f851b8 *R/Certolizumabdat.R
@@ -37,9 +37,9 @@ a6866c1b7bf87a5dcd90884658b51d5a *data/IncDiabetesdat.rda
 7a66faad19d82c6cb9ded3045be62322 *data/Thrombdat.rda
 66f0141e70e7b3d70445f04c0f6621ed *data/Woodsdat.rda
 d91971bec65989473c0d754e4736ebe5 *inst/CITATION
-ab8a7687eca5bebf2105f63f61e3aab0 *inst/doc/nmaINLA.R
-e8d528dbac628f1d92ccbd22ccb19995 *inst/doc/nmaINLA.Rnw
-e81346c741e607f6d2b728c488eaff24 *inst/doc/nmaINLA.pdf
+807ffaed59223f2125cf35ffcb31d62d *inst/doc/nmaINLA.R
+e4100e0cf85ac924bee2e3241cde2495 *inst/doc/nmaINLA.Rnw
+2f785f27bdc975bbb6ee399d583bf5fd *inst/doc/nmaINLA.pdf
 e50d751d05aa95ce42334c590079c12e *man/Anestheticdat.Rd
 a4a639eef204b36af5834595c8458b40 *man/Certolizumabdat.Rd
 87d66fbadc64b33a75b36d64e36f12f8 *man/CooperStrokedat.Rd
@@ -64,5 +64,5 @@ f2468e133a584dec34c835b0d17e2cb5 *man/plot_nma.Rd
 55b177af32475e435a4c588433023c5b *tests/testthat.R
 036710ef3340b5e910ac083b5550e630 *tests/testthat/test_first.R
 8433929bcee379de7074e38b250812c1 *vignettes/ims.bst
-e8d528dbac628f1d92ccbd22ccb19995 *vignettes/nmaINLA.Rnw
+e4100e0cf85ac924bee2e3241cde2495 *vignettes/nmaINLA.Rnw
 76a4a94d2c3c3001f4a64d1e721e1d4b *vignettes/references.bib
