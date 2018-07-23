@@ -48,7 +48,8 @@ fit.Stroke.CONS.MREG.INLA <- nma_inla(StrokedatINLA.mreg, likelihood = "binomial
 
 
 ## ----InstallINLA, echo=TRUE, eval=FALSE----------------------------------
-#  install.packages("INLA", repos = "https://www.math.ntnu.no/inla/R/testing")
+#  install.packages("INLA", repos=c(getOption("repos"),
+#                                   INLA="https://inla.r-inla-download.org/R/stable"), dep=TRUE)
 #  library(INLA)
 
 ## ----InstallnmaINLA, echo=TRUE, eval=FALSE-------------------------------
