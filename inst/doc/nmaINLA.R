@@ -1,5 +1,6 @@
 ## ----include=FALSE-------------------------------------------------------
 library(knitr)
+library(nmaINLA)
 opts_chunk$set(fig.path = 'plots/p')
 
 ## ----LOADINLA, echo=FALSE, eval=TRUE, warning=FALSE, message=FALSE-------
@@ -44,8 +45,8 @@ fit.Stroke.CONS.MREG.INLA <- nma_inla(StrokedatINLA.mreg, likelihood = "binomial
                                       mreg = TRUE)
 
 
-}
 
+}
 
 ## ----InstallINLA, echo=TRUE, eval=FALSE----------------------------------
 #  install.packages("INLA", repos=c(getOption("repos"),

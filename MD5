@@ -1,4 +1,4 @@
-ed4f79f7e686400233570a1c808e41b1 *DESCRIPTION
+a6072302dc68744fb3b35a7b573ce78a *DESCRIPTION
 5a6f5e1127711941ff9c5e3d0e17d435 *NAMESPACE
 36ce55331e2505f539a8e9c46586ee32 *R/Anestheticdat.R
 bfb93a077b5beaa2e16088acd7f851b8 *R/Certolizumabdat.R
@@ -18,10 +18,10 @@ f2929674b05323a8722087e3cdf44235 *R/Strokedat.R
 47d61b981b150cd22a798e6777596719 *R/create_INLA_dat_pair.R
 78976a98effc70faa0ceecb3bd141102 *R/meta_inla.R
 5ca01117d37f6b2666ad383ae987a2c1 *R/nmaINLA.R
-99daabe71a07b526e130924e64005c3f *R/nma_inla.R
+5d6c5a20ddcc36c8796f01d4aa6fe1e7 *R/nma_inla.R
 82d9214635ea4256db273ca645dbb225 *R/plot_nma.R
 0443cac4aecbaa41318210971cec6d3e *R/print.R
-2778ee7226287a7960a875578b6793c6 *build/vignette.rds
+866019686ff44aad526c4a1c985554c5 *build/vignette.rds
 0a627d69868d3fff40b5786df0b54b7a *data/Anestheticdat.rda
 586ae0e727b5d5abada4d94a9c810367 *data/Certolizumabdat.rda
 efd88d138bf95ba760099b0e85e63337 *data/CooperStrokedat.rda
@@ -37,9 +37,9 @@ a6866c1b7bf87a5dcd90884658b51d5a *data/IncDiabetesdat.rda
 7a66faad19d82c6cb9ded3045be62322 *data/Thrombdat.rda
 66f0141e70e7b3d70445f04c0f6621ed *data/Woodsdat.rda
 6a2c5fe39e6946e6467011c073775534 *inst/CITATION
-32bee48efdf7df144094d9b4f9a5bf62 *inst/doc/nmaINLA.R
-133343ffe7972aa99c7780f6e9484c4b *inst/doc/nmaINLA.Rnw
-5e11f5405f47e3d879c12951b1d71875 *inst/doc/nmaINLA.pdf
+97f2510e5aea8c6137b07835f8f2c8b4 *inst/doc/nmaINLA.R
+9e68dea41dab137dc54a382b4c235e41 *inst/doc/nmaINLA.Rnw
+05e0efc3b080c339885ea8ae21128f85 *inst/doc/nmaINLA.pdf
 e50d751d05aa95ce42334c590079c12e *man/Anestheticdat.Rd
 a4a639eef204b36af5834595c8458b40 *man/Certolizumabdat.Rd
 87d66fbadc64b33a75b36d64e36f12f8 *man/CooperStrokedat.Rd
@@ -58,11 +58,11 @@ af9226b0140d04a9afd6f968d0022d6d *man/Thrombdat.Rd
 d347c85ab976054546f3199636ea027d *man/create_INLA_dat_pair.Rd
 dd354c92ed77f4b31538d1a0d79acd07 *man/meta_inla.Rd
 215995697c60adf7b1b857fab839947b *man/nmaINLA.Rd
-6e35ade33c8ce5b9d6d227179a4c908c *man/nma_inla.Rd
+8f680275c3b4bd2a97d4d279a6759d18 *man/nma_inla.Rd
 f2468e133a584dec34c835b0d17e2cb5 *man/plot_nma.Rd
 3256809b8d0762a36df7dae06b530beb *man/print.nma_inla.Rd
 55b177af32475e435a4c588433023c5b *tests/testthat.R
 036710ef3340b5e910ac083b5550e630 *tests/testthat/test_first.R
 8433929bcee379de7074e38b250812c1 *vignettes/ims.bst
-133343ffe7972aa99c7780f6e9484c4b *vignettes/nmaINLA.Rnw
-699f73f71080cc337500fde844ddd62d *vignettes/references.bib
+9e68dea41dab137dc54a382b4c235e41 *vignettes/nmaINLA.Rnw
+65eabea1d3e74fbd527287923c59b9dc *vignettes/references.bib
