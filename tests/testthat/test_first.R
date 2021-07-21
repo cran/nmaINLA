@@ -28,7 +28,7 @@ test_that("results are correct for fitting (pairiwise meta-analysis) function.",
   }
   ### compare with results
   expect_equivalent(round(fit.TB.RE.INLA$nu[1], 2), -0.76)
-  expect_equivalent(round(fit.TB.RE.INLA$nu[2], 2), 0.22)
+  expect_equivalent(round(fit.TB.RE.INLA$nu[2], 2), 0.21)
 
 })
 

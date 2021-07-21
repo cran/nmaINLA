@@ -47,12 +47,13 @@ fixed effect and consistency models, node-splitting models.
 This package extends the INLA implementation of Sauter and Held (2015) to Jackson
 model (Jackson et al, 2014) and network meta-regression and extracts the
 features needed for NMA models from INLA R package and presents
-in an intuitive way (Guenhan et al, in preparation). Currently, contrast-based network
+in an intuitive way (Guenhan et al, 2018). Currently, contrast-based network
  meta-analysis using trial-arm level data for datasets with binary, continuous, and survival outcomes are supported.
  Note that the installation of R package
 'INLA' is compulsory for successful usage. The 'INLA' package can be obtained from
 <http://www.r-inla.org>. We recommend the testing version, which can be downloaded
-by running: source("http://www.math.ntnu.no/inla/givemeINLA-testing.R").
+by running: install.packages("INLA",repos=c(getOption("repos"),
+INLA="https://inla.r-inla-download.org/R/testing"), dep=TRUE).
 
 Type vignette("nmaINLA") to how to use this package.
 
@@ -60,5 +61,5 @@ The development version of nmaINLA is available on GitHub <https://github.com/gu
 }
 
 \author{
-Burak Kuersad Guenhan <burak.gunhan@med.uni-goettingen.de>
+Burak Kuersad Guenhan <burakgunhan@gmail.com>
 }

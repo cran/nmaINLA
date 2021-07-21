@@ -1,4 +1,4 @@
-3c63dd93b4ec6fe9940441a5f49a635a *DESCRIPTION
+64c4b33086b6cb6b436f86e29b10bb86 *DESCRIPTION
 5a6f5e1127711941ff9c5e3d0e17d435 *NAMESPACE
 36ce55331e2505f539a8e9c46586ee32 *R/Anestheticdat.R
 bfb93a077b5beaa2e16088acd7f851b8 *R/Certolizumabdat.R
@@ -16,12 +16,12 @@ f2929674b05323a8722087e3cdf44235 *R/Strokedat.R
 5326bdb55d22a40b12887185693b0817 *R/Woodsdat.R
 8104db39b05c5ada47da950cfeb3655c *R/create_INLA_dat.R
 47d61b981b150cd22a798e6777596719 *R/create_INLA_dat_pair.R
-4376854f22bf0ba7b861ebf85944eba5 *R/meta_inla.R
-5ca01117d37f6b2666ad383ae987a2c1 *R/nmaINLA.R
-96d21576bce72f0b45d574b742845175 *R/nma_inla.R
+dbfb137483c559e3595a98200e7a2797 *R/meta_inla.R
+36b44847742f29239a908e4bc2a3079c *R/nmaINLA.R
+92a599c8055eaedc0753c6e2d768c1b1 *R/nma_inla.R
 82d9214635ea4256db273ca645dbb225 *R/plot_nma.R
 0443cac4aecbaa41318210971cec6d3e *R/print.R
-85302d6054e2be56bd6b657d33638c82 *build/vignette.rds
+84f5f3f5b10b0f458839de3878bcdc2e *build/vignette.rds
 0a627d69868d3fff40b5786df0b54b7a *data/Anestheticdat.rda
 586ae0e727b5d5abada4d94a9c810367 *data/Certolizumabdat.rda
 efd88d138bf95ba760099b0e85e63337 *data/CooperStrokedat.rda
@@ -39,7 +39,7 @@ a6866c1b7bf87a5dcd90884658b51d5a *data/IncDiabetesdat.rda
 6a2c5fe39e6946e6467011c073775534 *inst/CITATION
 4a05023be274e40d83a48aaaa0fe93ed *inst/doc/nmaINLA.R
 9e68dea41dab137dc54a382b4c235e41 *inst/doc/nmaINLA.Rnw
-1ca278a259e7e297d97ce349af6498c0 *inst/doc/nmaINLA.pdf
+03f06e67818924b11e0144cf76199630 *inst/doc/nmaINLA.pdf
 712d135e91d81014a8f58928b4d5a844 *man/Anestheticdat.Rd
 19fb7dbd89d26333234e96b65badf65f *man/Certolizumabdat.Rd
 f4c5c726919d576f127042819fe98f34 *man/CooperStrokedat.Rd
@@ -57,12 +57,12 @@ b89a0bb52638c56691bb3c10f0609553 *man/Strokedat.Rd
 55da056a3c74c4a8576eba661c47630c *man/create_INLA_dat.Rd
 d347c85ab976054546f3199636ea027d *man/create_INLA_dat_pair.Rd
 a9e610a9ba9ab25a1631dca675ec27d6 *man/meta_inla.Rd
-761d8ac4adcd096665217c992f4059c7 *man/nmaINLA.Rd
+ec11b3aee3322ad0e52f5630642ff04c *man/nmaINLA.Rd
 872df75adad8a414708bec00b06f56aa *man/nma_inla.Rd
 2e43e6d815ccde5d2ace21def0c70c42 *man/plot_nma.Rd
 3256809b8d0762a36df7dae06b530beb *man/print.nma_inla.Rd
 55b177af32475e435a4c588433023c5b *tests/testthat.R
-76a47b9430e5fbc12c5e7a778f68ac07 *tests/testthat/test_first.R
+82546f26cab7c9de2d29b5b90d720c71 *tests/testthat/test_first.R
 8433929bcee379de7074e38b250812c1 *vignettes/ims.bst
 9e68dea41dab137dc54a382b4c235e41 *vignettes/nmaINLA.Rnw
 65eabea1d3e74fbd527287923c59b9dc *vignettes/references.bib

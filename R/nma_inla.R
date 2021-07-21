@@ -167,8 +167,7 @@ nma_inla <- function(datINLA, likelihood = NULL, fixed.par = c(0, 1000), tau.pri
                                control.fixed = list(expand.factor.strategy = "inla", mean = fixed.par[1],
                                                     prec = 1/fixed.par[2]), Ntrials = Ntrials,
                                control.compute = list(dic = TRUE, waic = TRUE, cpo = TRUE, mlik = TRUE, config = TRUE),
-                               control.inla = list(strategy = inla.strategy,
-                                                   control.correct = list(correct, correct.factor)))
+                               control.inla = list(strategy = inla.strategy))
         }
         if (likelihood == "normal") {
           datINLA$Y = datINLA$mean
@@ -180,7 +179,7 @@ nma_inla <- function(datINLA, likelihood = NULL, fixed.par = c(0, 1000), tau.pri
                                  control.family = list(hyper = list(prec = list(fixed = TRUE, initial = 0))),
                                  scale = prec,
                                  control.compute = list(dic = TRUE, waic = TRUE, cpo = TRUE, mlik = TRUE, config = TRUE),
-                                 control.inla = list(strategy = inla.strategy, control.correct = list(correct, correct.factor)))
+                                 control.inla = list(strategy = inla.strategy))
         }
         if (likelihood == "poisson") {
           datINLA$Y = datINLA$responders
@@ -189,7 +188,7 @@ nma_inla <- function(datINLA, likelihood = NULL, fixed.par = c(0, 1000), tau.pri
                                  control.fixed = list(expand.factor.strategy = "inla", mean = fixed.par[1],
                                                       prec = 1/fixed.par[2]), E = E,
                                  control.compute = list(dic = TRUE, waic = TRUE, cpo = TRUE, mlik = TRUE, config = TRUE),
-                                 control.inla = list(strategy = inla.strategy, control.correct = list(correct, correct.factor)))
+                                 control.inla = list(strategy = inla.strategy))
         }
 
         if (!fit.inla$ok) {
